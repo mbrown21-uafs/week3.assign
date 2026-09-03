@@ -1,0 +1,17 @@
+body{
+	font-family: Arial, sans-serif;
+	background-color: white;
+}
+nav{
+	background-color: darkgreen;
+}
+nav a{
+	color: white;
+}
+footer{
+	background-color: darkgreen;
+	color:white;
+}
+.program{
+	background-color: lightblue;
+}
