@@ -1,17 +1,54 @@
 body{
 	font-family: Arial, sans-serif;
 	background-color: white;
+	margin: 0;
+	color: black;
+}
+h1{
+	background-color: darkgreen;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 20px;
 }
 nav{
 	background-color: darkgreen;
+	text-align: center;
+	padding: 15px;
 }
 nav a{
 	color: white;
+	margin-right: 20px;
+}
+h2{
+	text-align: center;
+	margin-top: 30px
+}
+body > p{
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
 }
 footer{
 	background-color: darkgreen;
 	color:white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 30px;
 }
 .program{
 	background-color: lightblue;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+.program h3{
+	text-align: center;
+}
+@media (min-width: 768px){
+	.program{
+		display: inline-block;
+		width: 25%;
+		vertical-align: top;
+	}
 }
